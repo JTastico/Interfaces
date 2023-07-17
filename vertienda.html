@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tienda de Vinos</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script>
+    function mostrarMensaje() {
+    alert('Ya se agrego al carrito');
+    }
+</script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Tienda de Vinos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+        <a class="nav-link" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Productos</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Contacto</a>
+        </li>
+    </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+    <div class="col-md-6 col-lg-4">
+        <div class="card mb-4">
+        <img src="https://plazavea.vteximg.com.br/arquivos/ids/525867-1000-1000/462617.jpg" class="card-img-top" alt="Vino 1">
+        <div class="card-body">
+            <h5 class="card-title">Whisky ROYAL SALUTE 21 Años Botella 700ml</h5>
+            <p class="card-text">Es un whiskey de sabor suave y fresco, con delicadas notas de mermelada de naranjas dulces y peras frescas, que se unen con toques de avellana y nueces, y un sutil ahumado. Es un whisky premium con ricos aromas frutales y una fragancia de flores de otoño.</p>
+            <p class="card-text">Precio Online: S/ 1,249.90</p>
+            <button class="btn btn-primary" href="#" onclick="mostrarMensaje()">Agregar al carrito</button>
+        </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6 col-lg-4">
+        <div class="card mb-4">
+        <img src="https://plazavea.vteximg.com.br/arquivos/ids/1087616-1000-1000/697569.jpg" class="card-img-top" alt="Vino 2">
+        <div class="card-body">
+            <h5 class="card-title">Johnnie Walker Blue Label</h5>
+            <p class="card-text">Exclusivo whisky escocés creado al estilo de los whiskies clásicos del siglo XIX, fruto de toda la experiencia adquirida por la Casa Walker durante sus 200 años de historia. Cada botella de Johnnie Walker® Blue Label™ está numerada como sello de autenticidad y calidad, muestra del carácter especial, único e irrepetible de la mezcla de whiskies de grano y de malta seleccionados entre los más finos, raros y excepcionales.</p>
+            <p class="card-text">Precio Online: S/ 1,449.90</p>
+            <button class="btn btn-primary" href="#" onclick="mostrarMensaje()">Agregar al carrito</button>
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
